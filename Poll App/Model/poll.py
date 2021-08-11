@@ -1,5 +1,6 @@
 from typing import List
-from models import Option
+from connections import create_connection
+from models.option import Option
 import database
 
 class Poll:
